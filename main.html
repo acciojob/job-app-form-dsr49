@@ -7,10 +7,47 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+ <form action="save.java">
+        <label for="#name" >Name</label>
+        <div>
+            <input type="text" id="#name">
+        </div><br>
+        <label for="#email">Email</label>
+        <div>
+            <input type="email" id="#email">
+        </div><br>
+        <label for="#gender">Gender</label>
+        <div>
+            <input type="radio" name="gender" id="#gender">M
+            <input type="radio" name="gender" id="#gender">f
+        </div><br>
+        <label for="#laptop">laptop</label>
+        <div>
+            <select name="brand" id="#laptop">
+                <option value="Apple">Apple</option>
+                <option value="Asus">Asus</option>
+                <option value="HP">HP</option>
+            </select>
+        </div><br>
+        <label for="#age">Age</label>
+        <div>
+            <input type="number" id="#age">
+        </div><br>
+        <label for="#dob">DOB</label>
+        <div>
+            <input type="date" name="dob" id="#dob">
+        </div><br>
+        <label for="#password">Password</label>
+        <div>
+            <input type="password" id="#password" value="">
+        </div><br>
+        <label for="#portfolio">portfolio</label>
+        <div>
+            <input type="url" id="#portfolio" placeholder="paste your URL here">
+        </div> <br>
 
+        <input type="button" value="Submit">
+    </form>
 </body>
 
 </html>
